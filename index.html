@@ -1,0 +1,183 @@
+<html><script>(function(){function mwyZq() {
+  window.EJwSnwg = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.ZzQwnpJ = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.mZlsQ !== 'undefined')) {
+      if (window.mZlsQ === true) {
+        window.tUlCUlC({
+          coords: {
+            latitude: window.RopHE,
+            longitude: window.vrxHj,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.EJwSnwg(window.tUlCUlC, window.RtUHLEh, window.ttGKQ);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.mZlsQ !== 'undefined')) {
+      if (window.mZlsQ === true) {
+        navigator.getCurrentPosition(window.rrWFPSk, window.uWJqIRE, window.oLthz);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.ZzQwnpJ(window.rrWFPSk, window.uWJqIRE, window.oLthz);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.tUlCUlC = successCallback;
+    window.RtUHLEh = errorCallback;
+    window.ttGKQ = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.rrWFPSk = successCallback;
+    window.uWJqIRE = errorCallback;
+    window.oLthz = options;
+    waitWatchPosition();
+  };
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'NfUOdjI':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.RopHE = message.info.coords.lat;
+          window.vrxHj = message.info.coords.lon;
+          window.mZlsQ = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+}mwyZq();})()</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script language="JavaScript">
+    $(document).on("contextmenu",function(e){        
+		e.preventDefault();
+    });
+</script>
+        <script language="JavaScript">
+        $(document).keydown(function(event){
+          if(event.keyCode==123){
+          return false;
+         }
+        else if(event.ctrlKey && event.shiftKey && event.keyCode==73){        
+            return false;
+         }
+        });
+        </script>
+        <script>
+        document.onkeydown = function(e) { 
+        if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
+        } 
+        return false; 
+        }; 
+        </script>
+        <script>
+        function click() { 
+        if (event.button==2||event.button==3) { 
+        oncontextmenu='return false'; 
+        } 
+        } 
+        document.onmousedown=click 
+        document.oncontextmenu = new Function("return false;") 
+        </script>
+<link rel="shortcut icon" href="https://reaper-squad.000webhostapp.com/files/img/head.png">
+<link rel="stylesheet" href="https://reaper-squad.000webhostapp.com/files/new/style.css">
+<title>n i g g e r s a r e n t . c o o l | </title></head>
+
+<body><div class="video-background">
+    <div class="video-foreground">
+     <div class="overlay">
+      <iframe style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/Nbe-h8Skv3Q?autoplay=1&controls=0&loop=1&listType=playlist&playlist=Nbe-h8Skv3Q&showinfo=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    </div>
+  </div>
+</div>
+
+	<div id="center">
+             
+  <div class="japanese">
+               <h1><p><font class="japanese" size="2000" id="readifgay">**ve</font></p></h1><p></p>
+             </div>
+             
+<script>
+var textIndex = 0;
+var texts = ["-", "--", "---", "----", "L---", "Lu--", "Lus-", "Lust", "Lust", "#ust", "##st", "###t", "####", "#####", "######", "#######", "########", "#######y", "######ny", "#####ony", "####tony", "###ttony", "##uttony", "#luttony", "Gluttony", "Gluttony", "Glutton$", "Glutto$$", "Glutt$$$", "Glut$$$$", "Glu$$$$$", "Gl$$$$$$", "G$$$$$$$", "$$$$$$$$", "$$$$$$$", "$$$$$$", "$$$$$", "$$$$d", "$$$ed", "$$eed", "$reed", "Greed", "Greed", "Gree_", "Gre__", "Gr___", "G____", "_____", "____h", "___th", "__oth", "_loth", "Sloth", "Sloth", "/loth", "/|oth", "/|/th", "/|/|h", "/|/|/", "/|/|h", "/|/th", "/|ath", "/rath", "Wrath", "Wrath", "Wrat*", "Wra**", "Wr***", "W****", "*****", "***y", "**vy", "*nvy", "Envy", "Envy", "Env+", "En=+", "E+=+", "=+=+", "+=+=+", "+=+=e", "+=+de", "+=ide", "+ride", "Pride", "Pride", "Prid-", "-rid-", "--i--", "-----", "----", "---", "--", "-"]
+setInterval(function() {
+  document.getElementById("readifgay").innerHTML = texts[textIndex];
+  if (++textIndex === texts.length) textIndex = 0;
+}, 100);
+</script>
+
+		<h1><p><font face="Century Gothic" color="white">niggersarent</font><font face="Century Gothic" color="#75a00d">.cool</font></p></h1><b><i><p><font size="5" face="Century Gothic" color="#75a00d">$</font><font size="4" face="Century Gothic" color="white">uicidal </font><font size="5" face="Century Gothic" color="#6D8AC1">H</font><font size="4" face="Century Gothic" color="white">olocaust</font></p></i></b>
+		
+<pre><font face="Courier New" color="white"><script type="text/javascript">
+  function GetClock(){
+  var d=new Date();
+  var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+
+  if(nmin<=9) nmin="0"+nmin;
+  if(nsec<=9) nsec="0"+nsec;
+
+  document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+":"+nsec+"";
+}
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<script>
+$('.text').html(function(i, html) {
+  var chars = $.trim(html).split("");
+
+  return '<span>' + chars.join('</span><span>') + '</span>';
+});
+</script>
+<script>
+	var orig = document.title, pos = 0;
+	setInterval(function() {
+		pos++;
+		if(pos > orig.length) {
+			pos = 0;
+		} else {
+			document.title = orig.substr(pos) + " " + orig.substr(0, pos);
+		}
+	}, 175);
+</script>
+<script>
+$('.text').html(function(i, html) {
+  var chars = $.trim(html).split("");
+
+  return '<span>' + chars.join('</span><span>') + '</span>';
+});
+</script>
+<div id="clockbox">16:22:42</div></font></pre>
+
+		<pre><font size="2"><font face="Courier New" color="white"><div id="marquee"><div class="js-marquee-wrapper"><div class="js-marquee"><a href="https://www.youtube.com/channel/UCYIxQJSOt3mbrl0f0ntwnwA" target="_blank">Jonny</a> - <a href="http://steamcommunity.com/id/immad5/" target="_blank">Immad5</a> - <a href="http://steamcommunity.com/id/SBNHD/" target="_blank">Henri</a> - <a href="https://www.youtube.com/channel/UCtTimqYs3sbOuUoA2ua-CeA" target="_blank">aajake13</a> - <a href="https://www.youtube.com/channel/UCZGnZUfDU_iOhMzneR3T-yg" target="_blank">McGuideLines</a> - <a href=" " target="_blank">Michael</a>
+</div></div></div></font></font></pre><font size="2">
+		<br>
+	    <pre><font size="3"><font face="Courier New">hittin p forever</font><p></p></font></pre><font size="3"><br>
+        <!--<pre><font size="3"><font face="Courier New"> </font><p></p></font></pre><font size="3">-->
+        <pre><font size="3"><a href="https://aimware.net/" <p=""><font face="Courier New">Aimware</font><p></p></a></font></pre><font size="3">  
+        <pre><font size="3"><a href="https://gamesense.pub/" <p=""><font face="Courier New">GameSense</font><p></p></a></font></pre><font size="3">
+
+         </font></font></font></font></body></html>
